@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,14 +20,6 @@
 		A0507CF426F9FB8C00F91105 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0507CF226F9FB8200F91105 /* NetworkExtension.framework */; };
 		A0507CF626F9FB9400F91105 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0507CF526F9FB9400F91105 /* NetworkExtension.framework */; };
 		A0507CF726F9FB9B00F91105 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0507CF526F9FB9400F91105 /* NetworkExtension.framework */; };
-		A0507CF926F9FC0F00F91105 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0507CF826F9FC0F00F91105 /* Tor.framework */; };
-		A0507CFA26F9FC0F00F91105 /* Tor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0507CF826F9FC0F00F91105 /* Tor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A0507CFD26F9FC1700F91105 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0507CFC26F9FC1700F91105 /* Tor.framework */; };
-		A0507CFE26F9FC1700F91105 /* Tor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0507CFC26F9FC1700F91105 /* Tor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A0507D0126F9FC2600F91105 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0507D0026F9FC2600F91105 /* Tor.framework */; };
-		A0507D0226F9FC2600F91105 /* Tor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0507D0026F9FC2600F91105 /* Tor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A0507D0526F9FC2C00F91105 /* Tor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0507D0426F9FC2C00F91105 /* Tor.framework */; };
-		A0507D0626F9FC2C00F91105 /* Tor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A0507D0426F9FC2C00F91105 /* Tor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A0507D0926FA303800F91105 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0507D0826FA303800F91105 /* WebViewController.swift */; };
 		A05399342682293500A19969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05399332682293500A19969 /* AppDelegate.swift */; };
 		A05399362682293500A19969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05399352682293500A19969 /* ViewController.swift */; };
@@ -121,50 +113,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A0507CFB26F9FC0F00F91105 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A0507CFA26F9FC0F00F91105 /* Tor.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0507CFF26F9FC1700F91105 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A0507CFE26F9FC1700F91105 /* Tor.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0507D0326F9FC2600F91105 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A0507D0226F9FC2600F91105 /* Tor.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0507D0726F9FC2C00F91105 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A0507D0626F9FC2C00F91105 /* Tor.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A0A735D9247561F200073C81 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -677,7 +625,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0507D0126F9FC2600F91105 /* Tor.framework in Frameworks */,
 				A0507CF626F9FB9400F91105 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,7 +633,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0507CF926F9FC0F00F91105 /* Tor.framework in Frameworks */,
 				A5445C28740CC946E8C5C0FA /* Pods_iCepa.framework in Frameworks */,
 				A0507CF326F9FB8200F91105 /* NetworkExtension.framework in Frameworks */,
 			);
@@ -698,7 +644,6 @@
 			files = (
 				A0FD91A626F36199002C317C /* libleaf.a in Frameworks */,
 				A0507CF426F9FB8C00F91105 /* NetworkExtension.framework in Frameworks */,
-				A0507CFD26F9FC1700F91105 /* Tor.framework in Frameworks */,
 				31E151BC94D5763DF8D173E8 /* Pods_TorVPN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,7 +652,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0507D0526F9FC2C00F91105 /* Tor.framework in Frameworks */,
 				A04F2A4726F8DA5C00C660B0 /* libleaf.a in Frameworks */,
 				A0507CF726F9FB9B00F91105 /* NetworkExtension.framework in Frameworks */,
 			);
@@ -2013,7 +1957,6 @@
 				A053992E2682293500A19969 /* Frameworks */,
 				A053992F2682293500A19969 /* Resources */,
 				A0E1F1AF26834C0400111461 /* Embed App Extensions */,
-				A0507D0326F9FC2600F91105 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2034,7 +1977,7 @@
 				A05B73AD24755CE600930C40 /* Frameworks */,
 				A05B73AE24755CE600930C40 /* Resources */,
 				A0A735D9247561F200073C81 /* Embed App Extensions */,
-				A0507CFB26F9FC0F00F91105 /* Embed Frameworks */,
+				DF75507FACAEA2D6A8A2EDEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2055,7 +1998,6 @@
 				A0A735C9247561F200073C81 /* Sources */,
 				A0A735CA247561F200073C81 /* Frameworks */,
 				A0A735CB247561F200073C81 /* Resources */,
-				A0507CFF26F9FC1700F91105 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2074,7 +2016,6 @@
 				A0E1F1A126834C0400111461 /* Sources */,
 				A0E1F1A226834C0400111461 /* Frameworks */,
 				A0E1F1A326834C0400111461 /* Resources */,
-				A0507D0726F9FC2C00F91105 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -2228,6 +2169,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "${PROJECT_DIR}/build-leaf.sh\n";
+		};
+		DF75507FACAEA2D6A8A2EDEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCepa/Pods-iCepa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCepa/Pods-iCepa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCepa/Pods-iCepa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		E106A27B8D0B93AAA622196B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
