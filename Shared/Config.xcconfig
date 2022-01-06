@@ -13,12 +13,12 @@
 // git update-index --skip-worktree Shared/Config.xcconfig
 // git update-index --no-skip-worktree Shared/Config.xcconfig
 
-APP_BUNDLE_ID[config=Debug] =
-EXT_BUNDLE_ID[config=Debug] =
-APP_GROUP[config=Debug] =
-DEVELOPMENT_TEAM[config=Debug] =
-APP_PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
-EXT_PROVISIONING_PROFILE_SPECIFIER[config=Debug] =
+APP_BUNDLE_ID[config=Debug] = com.lizhi.zhou.iCepa
+EXT_BUNDLE_ID[config=Debug] = com.lizhi.zhou.iCepa.networkExtension
+APP_GROUP[config=Debug] = group.com.lizhi.zhou.iCepa
+DEVELOPMENT_TEAM[config=Debug] = P6VGL5WC26
+APP_PROVISIONING_PROFILE_SPECIFIER[config=Debug] = iCepa.app.profile
+EXT_PROVISIONING_PROFILE_SPECIFIER[config=Debug] = iCepa.networkextension.profile
 APP_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Debug] =
 EXT_PROVISIONING_PROFILE_SPECIFIER_MAC[config=Debug] =
 
